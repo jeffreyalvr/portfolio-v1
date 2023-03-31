@@ -20,7 +20,11 @@ const Hero = ({ children }) => {
         react js developer
         <div className="carrot" />
       </h2>
-      <Button text="Meu perfil LinkedIn" icon={linkedin} url={linkedin_url} />
+      <Button
+        text="Encontre-me no LinkedIn"
+        icon={linkedin}
+        url={linkedin_url}
+      />
       <span>Este site ainda se encontra em desenvolvimento.</span>
     </div>
   );
