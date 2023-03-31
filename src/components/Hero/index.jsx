@@ -1,6 +1,5 @@
 import "./styles.css";
 
-import reactjs from "../../assets/images/reactjs.png";
 import linkedin from "../../assets/images/linkedin.png";
 
 import Button from "../Button";
@@ -14,10 +13,7 @@ const Hero = ({ children }) => {
         Olá, sou o <span>{"{ Jeffrey }"}</span>
       </h1>
       <h2>
-        <div className="stack-badge">
-          <img src={reactjs} alt="React JS" />
-        </div>
-        react js developer
+        <div className="label"> react js developer</div>
         <div className="carrot" />
       </h2>
       <Button
