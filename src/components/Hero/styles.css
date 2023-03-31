@@ -61,3 +61,34 @@
   position: absolute;
   bottom: 200px;
 }
+
+.hero .carrot {
+  height: 50px;
+  width: 25px;
+  background-color: aquamarine;
+  margin: 0 0 0 10px;
+  animation-name: blinking;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.05;
+  }
+  40% {
+    opacity: 0.1;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}

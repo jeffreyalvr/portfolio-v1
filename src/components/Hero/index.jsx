@@ -17,7 +17,8 @@ const Hero = ({ children }) => {
         <div className="stack-badge">
           <img src={reactjs} alt="React JS" />
         </div>
-        react js
+        react js developer
+        <div className="carrot" />
       </h2>
       <Button text="Meu perfil LinkedIn" icon={linkedin} url={linkedin_url} />
       <span>Este site ainda se encontra em desenvolvimento.</span>

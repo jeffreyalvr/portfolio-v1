@@ -2,6 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+::selection {
+  color: #fff;
+  background: #87d2bc;
+}
+
 * {
   margin: 0;
   padding: 0;
