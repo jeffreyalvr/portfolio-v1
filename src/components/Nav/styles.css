@@ -42,7 +42,6 @@ nav .links .item {
   background-color: transparent;
   border-radius: 8px;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 nav .links .item.active {

@@ -1,8 +1,12 @@
 import "./styles.css";
 
 import reactjs from "../../assets/images/reactjs.png";
+import linkedin from "../../assets/images/linkedin.png";
+
+import Button from "../Button";
 
 const Hero = ({ children }) => {
+  const linkedin_url = "https://www.linkedin.com/in/jeffreyalvr/";
   return (
     <div className="hero">
       {children}
@@ -15,6 +19,7 @@ const Hero = ({ children }) => {
         </div>
         react js
       </h2>
+      <Button text="Meu perfil LinkedIn" icon={linkedin} url={linkedin_url} />
     </div>
   );
 };

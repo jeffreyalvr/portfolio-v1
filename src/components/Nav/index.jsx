@@ -5,7 +5,6 @@ const Nav = () => {
     <nav>
       <div className="links">
         <div className="item active">início</div>
-        <div className="item">contate-me</div>
       </div>
     </nav>
   );

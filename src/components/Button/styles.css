@@ -1,0 +1,29 @@
+.button,
+button {
+  padding: 15px 25px;
+  margin: 50px 0;
+  color: #fff;
+  background-color: #5050507a;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.button:hover,
+button:hover {
+  background-color: #50505094;
+}
+
+.button:active,
+button:active {
+  background-color: #5050507a;
+}
+
+.button img,
+button img {
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
