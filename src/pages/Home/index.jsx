@@ -4,8 +4,9 @@ import Hero from "../../components/Hero";
 const Home = () => {
   return (
     <div className="wrapper">
-      <Nav />
-      <Hero />
+      <Hero>
+        <Nav />
+      </Hero>
     </div>
   );
 };

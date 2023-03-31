@@ -2,9 +2,10 @@ import "./styles.css";
 
 import reactjs from "../../assets/images/reactjs.png";
 
-const Hero = () => {
+const Hero = ({ children }) => {
   return (
     <div className="hero">
+      {children}
       <h1>
         Olá, sou o <span>Jeffrey</span>
       </h1>

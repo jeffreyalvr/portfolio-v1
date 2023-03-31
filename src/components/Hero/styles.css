@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100%;
   background: linear-gradient(360deg, #22f9b8 0%, #505050 100%);
-  padding: 200px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
