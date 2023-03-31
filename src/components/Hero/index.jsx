@@ -11,7 +11,7 @@ const Hero = ({ children }) => {
     <div className="hero">
       {children}
       <h1>
-        Olá, sou o <span>Jeffrey</span>
+        Olá, sou o <span>{"{ Jeffrey }"}</span>
       </h1>
       <h2>
         <div className="stack-badge">
@@ -20,6 +20,7 @@ const Hero = ({ children }) => {
         react js
       </h2>
       <Button text="Meu perfil LinkedIn" icon={linkedin} url={linkedin_url} />
+      <span>Este site ainda se encontra em desenvolvimento.</span>
     </div>
   );
 };
