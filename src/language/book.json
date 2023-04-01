@@ -1,7 +1,12 @@
 {
   "pt_br": {
+    "pages": {
+      "title": "Olá, sou o Jeffrey!"
+    },
     "nav": {
-      "index": { "nav_item_homepage": "início" }
+      "index": {
+        "nav_item_homepage": "início"
+      }
     },
     "hero": {
       "index": {
@@ -11,8 +16,13 @@
     }
   },
   "en_ca": {
+    "pages": {
+      "title": "Hi, I'm Jeffrey!"
+    },
     "nav": {
-      "index": { "nav_item_homepage": "home" }
+      "index": {
+        "nav_item_homepage": "home"
+      }
     },
     "hero": {
       "index": {

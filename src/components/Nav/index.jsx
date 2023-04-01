@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { LanguageContext } from "../../Contexts/LanguageContext";
 
 import "./styles.css";
@@ -8,8 +8,21 @@ import book from "../../language/book.json";
 import brazil_flag from "../../assets/images/brazil_flag.png";
 import canada_flag from "../../assets/images/canada_flag.png";
 
+console.log("renderizou");
+
 const Nav = () => {
   const { lang, setLang } = useContext(LanguageContext);
+  const titulo =
+    lang === "pt-br" ? book.pt_br.pages.title : book.en_ca.pages.title;
+
+  useEffect(() => {
+    handlePageTitle();
+  }, [lang]);
+
+  const handlePageTitle = () => {
+    document.title = titulo;
+  };
+
   return (
     <nav>
       <div className="links">
