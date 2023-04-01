@@ -8,8 +8,6 @@ import book from "../../language/book.json";
 import brazil_flag from "../../assets/images/brazil_flag.png";
 import canada_flag from "../../assets/images/canada_flag.png";
 
-console.log("renderizou");
-
 const Nav = () => {
   const { lang, setLang } = useContext(LanguageContext);
   const titulo =
