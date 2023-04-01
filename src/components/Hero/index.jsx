@@ -1,3 +1,8 @@
+import { useContext } from "react";
+import { LanguageContext } from "../../Contexts/LanguageContext";
+
+import book from "../../language/book.json";
+
 import "./styles.css";
 
 import linkedin from "../../assets/images/linkedin.png";
@@ -8,11 +13,17 @@ import Button from "../Button";
 const Hero = ({ children }) => {
   const linkedin_url = "https://www.linkedin.com/in/jeffreyalvr/";
   const github_url = "https://github.com/jeffreyalvr";
+
+  const { lang } = useContext(LanguageContext);
+
   return (
     <div className="hero">
       {children}
       <h1>
-        Olá, sou o <span>{"{ Jeffrey }"}</span>
+        {lang === "pt-br"
+          ? book.pt_br.hero.index.hero_h1
+          : book.en_ca.hero.index.hero_h1}
+        <span>{"{ Jeffrey }"}</span>
       </h1>
       <h2>
         <div className="label"> react js developer</div>
@@ -22,7 +33,11 @@ const Hero = ({ children }) => {
         <Button text="LinkedIn" icon={linkedin} url={linkedin_url} />
         <Button text="GitHub" icon={github} url={github_url} />
       </div>
-      <span>Este site ainda se encontra em desenvolvimento.</span>
+      <span>
+        {lang === "pt-br"
+          ? book.pt_br.hero.index.hero_footer_span
+          : book.en_ca.hero.index.hero_footer_span}
+      </span>
     </div>
   );
 };

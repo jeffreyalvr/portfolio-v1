@@ -1,13 +1,18 @@
+import React, { useState } from "react";
+import { LanguageContext } from "../../Contexts/LanguageContext";
+
 import Nav from "../../components/Nav";
 import Hero from "../../components/Hero";
 
 const Home = () => {
+  const [lang, setLang] = useState("pt-br");
+
   return (
-    <div className="wrapper">
+    <LanguageContext.Provider value={{ lang, setLang }}>
       <Hero>
         <Nav />
       </Hero>
-    </div>
+    </LanguageContext.Provider>
   );
 };
 

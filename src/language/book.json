@@ -1,0 +1,24 @@
+{
+  "pt_br": {
+    "nav": {
+      "index": { "nav_item_homepage": "início" }
+    },
+    "hero": {
+      "index": {
+        "hero_h1": "Olá, sou o",
+        "hero_footer_span": "Este site ainda se encontra em desenvolvimento."
+      }
+    }
+  },
+  "en_ca": {
+    "nav": {
+      "index": { "nav_item_homepage": "home" }
+    },
+    "hero": {
+      "index": {
+        "hero_h1": "Hi, I'm",
+        "hero_footer_span": "This website is still in development."
+      }
+    }
+  }
+}
