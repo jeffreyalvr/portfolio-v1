@@ -11,7 +11,7 @@
     "hero": {
       "index": {
         "hero_h1": "Olá, sou o",
-        "hero_footer_span": "Este site ainda se encontra em desenvolvimento."
+        "hero_footer_span": "Este site ainda está em desenvolvimento."
       }
     }
   },
