@@ -27,7 +27,7 @@
     "hero": {
       "index": {
         "hero_h1": "Hi, I'm",
-        "hero_footer_span": "This website is still in development."
+        "hero_footer_span": "This website is still under development."
       }
     }
   }
