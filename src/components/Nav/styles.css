@@ -7,7 +7,6 @@ nav {
   align-items: center;
   justify-content: flex-end;
   padding: 0 50px;
-  margin: 0 0 200px 0;
 }
 
 nav .links,
@@ -61,4 +60,10 @@ nav .links .item a:active {
 
 nav .links .item a:hover {
   color: #22f9b8;
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    justify-content: center;
+  }
 }
