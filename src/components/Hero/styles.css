@@ -134,6 +134,7 @@
 @media screen and (max-width: 450px) {
   .hero .container {
     padding: 0 25px;
+    margin: 150px 0 0 0;
   }
   .hero .container h1 {
     display: grid;
