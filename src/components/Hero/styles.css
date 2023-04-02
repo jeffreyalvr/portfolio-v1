@@ -135,4 +135,11 @@
   .hero .container {
     padding: 0 25px;
   }
+  .hero .container h1 {
+    display: grid;
+    text-align: center;
+  }
+  .hero .container h1 span {
+    margin: 0;
+  }
 }
