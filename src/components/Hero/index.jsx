@@ -34,17 +34,17 @@ const Hero = ({ children }) => {
           <Button text="LinkedIn" icon={linkedin} url={linkedin_url} />
           <Button text="GitHub" icon={github} url={github_url} />
         </div>
-        <footer>
-          <div className="col">
-            <span>
-              {lang === "pt-br"
-                ? book.pt_br.hero.index.hero_footer_span
-                : book.en_ca.hero.index.hero_footer_span}
-            </span>
-            <span>&copy; 2023 - Jeffrey.</span>
-          </div>
-        </footer>
       </div>
+      <footer>
+        <div className="col">
+          <span>
+            {lang === "pt-br"
+              ? book.pt_br.hero.index.hero_footer_span
+              : book.en_ca.hero.index.hero_footer_span}
+          </span>
+          <span>&copy; 2023 - Jeffrey.</span>
+        </div>
+      </footer>
     </div>
   );
 };

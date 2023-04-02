@@ -17,13 +17,3 @@
 body {
   background: #22f9b8;
 }
-
-footer {
-  position: absolute;
-  bottom: 100px;
-}
-
-footer span {
-  color: #2c8067;
-  margin: 3px 0;
-}

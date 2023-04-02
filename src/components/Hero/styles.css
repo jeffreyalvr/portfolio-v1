@@ -56,16 +56,25 @@
   animation-iteration-count: infinite;
 }
 
-.hero .container .row {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.hero .container .col {
+.col {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer {
+  margin: 120px 0 0 0;
+}
+
+footer span {
+  color: #2c8067;
+  margin: 3px 0;
 }
 
 @keyframes typing {
@@ -142,5 +151,17 @@
   }
   .hero .container h1 span {
     margin: 0;
+  }
+  footer {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .hero .container {
+    margin: 90px 0 0 0;
+  }
+  footer {
+    margin: 30px 0 0 0;
   }
 }
