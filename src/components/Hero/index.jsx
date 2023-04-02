@@ -19,7 +19,7 @@ const Hero = ({ children }) => {
   return (
     <div className="hero">
       {children}
-      <div className="container">
+      <div className="container move-up">
         <h1>
           {lang === "pt-br"
             ? book.pt_br.hero.index.hero_h1
@@ -35,7 +35,7 @@ const Hero = ({ children }) => {
           <Button text="GitHub" icon={github} url={github_url} />
         </div>
       </div>
-      <footer>
+      <footer className="move-up">
         <div className="col">
           <span>
             {lang === "pt-br"
