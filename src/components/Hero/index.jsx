@@ -26,10 +26,10 @@ const Hero = ({ children }) => {
             : book.en_ca.hero.index.hero_h1}
           <span>{"{ Jeffrey }"}</span>
         </h1>
-        <h2>
-          <div className="label"> react js developer</div>
+        <div className="label-block">
+          <h2>react js developer</h2>
           <div className="carrot" />
-        </h2>
+        </div>
         <div className="row">
           <Button text="LinkedIn" icon={linkedin} url={linkedin_url} />
           <Button text="GitHub" icon={github} url={github_url} />
