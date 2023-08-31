@@ -80,6 +80,7 @@
 
 footer {
   margin: 120px 0 50px 0;
+  text-align: center;
 }
 
 footer span {
@@ -169,6 +170,15 @@ footer span {
   }
 }
 
+@media screen and (max-height: 700px) {
+  .hero .container {
+    margin: 90px 0 0 0;
+  }
+  footer {
+    margin: 30px 0 70px 0;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .hero .container h1,
   .hero .container h1 span {
@@ -190,15 +200,6 @@ footer span {
   }
   .row {
     flex-direction: column;
-  }
-  footer {
-    margin: 30px 0 70px 0;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .hero .container {
-    margin: 90px 0 0 0;
   }
   footer {
     margin: 30px 0 70px 0;
